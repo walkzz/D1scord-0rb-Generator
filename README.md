@@ -28,7 +28,14 @@ Download the files from this repository (specifically ensuring you have `index.j
 2. Hold `Shift` and **Right-Click** an empty space inside the folder.
 3. Select **"Open PowerShell window here"** (or "Open in Terminal").
 
-### 3. Generate Your Custom Game Executable
+### 3. Install Dependencies & Generate Your Custom Game Executable
+In the PowerShell window that pops up, you need to install the project dependencies first. Type this command and press **Enter**:
+
+```powershell
+npm install
+```
+
+### 4. Generate Your Custom Game Executable
 In the PowerShell window that pops up, type the following command.
 ```powershell
 npx pkg index.js --targets node18-win-x64 --output YOUR-GAME-NAME.exe
@@ -60,13 +67,13 @@ Once your custom `.exe` is generated, follow these steps:
 
 ### FAQ
 ## 1. Will I get banned for using this service?
-- Technically, no. You will only be rate-limited because Discord will notice an unusual behaviour from your account, standard spam protection these days you know.
+- Technically, no. You will only be rate-limited because Discord will notice an unusual behaviour from your account, standard spam protection these days, you know.
 ## 2. How many times can I use this program to earn orbs in a day?
 - Do not go over 3 times per day. Discord will rate-limit you and you will have to wait a day or two to reset.
 ## 3. Can I use my earned orbs to gift my friends, especially what they have in their wishlist?
 - No, you cannot gift orbs to your friends.
 ## 4. Is this service free?
-- The service is completely free and I do not need your well earned money.
+- The service is completely free and I do not need your well-earned money.
 
 ##  Disclaimer
-This utility is for educational and personal use and I do not enforce spamming behavior or other scripts beyond this program. Use this program on your own risk, you can stop at any time.
+This utility is for educational and personal use and I do not enforce spamming behavior or other scripts beyond this program. Use this program at your own risk; you can stop at any time.
