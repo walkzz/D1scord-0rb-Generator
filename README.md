@@ -44,6 +44,15 @@ npx pkg index.js --targets node18-win-x64 --output YOUR-GAME-NAME.exe
 
 NOTE: Some applications(e.g., Where Winds Meet) uses different executable - `wwm.exe`. You can find most of the executables in the file named `discord-executables.txt`, as with their folder directories where the exe file must be launched from.
 
+### Troubleshooting
+### 1. Error: "running scripts is disabled on this system"
+If you see a red error in PowerShell when typing `npm install`, copy and paste this command into PowerShell, hit **Enter**, and try again:
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+2. If it asks for confirmation, type Y and press Enter.
+3. Run `npm install` again.
+
 ##  How to Run It
 Once your custom `.exe` is generated, follow these steps:
 
@@ -63,7 +72,6 @@ Once your custom `.exe` is generated, follow these steps:
 4. Once done, launch the application named **wwm.exe** <br />
 5. Discord should now recognize the application in the background and the quest timer will begin. Once the quest is over, close the terminal manually or use **CTRL + C** to terminate. <br />
    <img width="351" height="163" alt="Screenshot 2026-05-31 163643" src="https://github.com/user-attachments/assets/360fb428-177d-4a95-988f-a8b0632baeb0" />
-
 
 ### FAQ
 ## 1. Will I get banned for using this service?
