@@ -1,0 +1,2 @@
+Use this command in the terminal to create the application game:
+npx pkg index.js --targets node18-win-x64 --output [GAME-NAME.EXE]
