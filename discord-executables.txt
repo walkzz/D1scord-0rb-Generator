@@ -96,3 +96,8 @@ Opera GX\opera.exe
 
 Genshin Impact
 GenshinImpact.exe
+
+C:\Program Files\EA Games\EA SPORTS FC 26
+FC26.exe
+
+C:\Wuthering Waves\Wuthering Waves Game\Client\Binaries\Win64
